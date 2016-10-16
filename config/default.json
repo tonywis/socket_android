@@ -1,0 +1,24 @@
+{
+  "Customer": {
+    // Not used
+    "dababase": {
+      "dbConfig": {
+        "type":"mongodb",
+        "host": "localhost",
+        "port": 5984,
+        "dbName": "dev-app"
+      }
+    },
+    "server": {
+      "webSocket": {
+        "host": "localhost",
+        "port": 9001
+      },
+      "api": {
+        "host": "localhost",
+        "port": 9000,
+        "route": "/api"
+      }
+    }
+  }
+}
